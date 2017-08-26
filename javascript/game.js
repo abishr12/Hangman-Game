@@ -1,10 +1,14 @@
 function hangmanGame(){
 
 
- alert("Select a letter")
-  var word = "superman";
-  var guessCounter = 0;
-  var guesses = document.getElementById("guess");
+ alert("Press any key to get started!")
+  var wordBank= ['superman', 'spiderman']
+  word = wordBank[Math.floor(Math.random() * (1 + 1) + 0)]
+  console.log(word)
+  // var word = "superman";
+  var guessCounter = 0
+  var correctGuess = 0
+  var guesses = document.getElementById("guess")
 
 
 
@@ -35,6 +39,10 @@ function hangmanGame(){
     else{
       alert("Good Job!!")
       document.getElementById("blanks"+ word.indexOf(userGuess)).innerHTML = userGuess;
+      correctGuess++
+      if(correctGuess === word.length){
+        alert("Winner Winner Chicken Dinner!!!")
+      }
       console.log(userGuess)
     }
   }
