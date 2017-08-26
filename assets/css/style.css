@@ -1,0 +1,68 @@
+body{
+  background-image: url("../images/superhero.png");
+}
+h1,h2{
+  text-align: center;
+}
+
+.game{
+  background-color: blue;
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  left:33%;
+}
+
+#guess{
+
+}
+
+#blanks0 {
+  display: inline-block;
+  width: 30px;
+}
+
+#blanks1 {
+  display: inline-block;
+  width: 30px;
+}
+
+#blanks2 {
+  display: inline-block;
+  width: 30px;
+}
+
+#blanks3 {
+  display: inline-block;
+  width: 30px;
+}
+
+#blanks4 {
+  display: inline-block;
+  width: 30px;
+}
+
+#blanks5 {
+  display: inline-block;
+  width: 30px;
+}
+
+#blanks6 {
+  display: inline-block;
+  width: 30px;
+}
+
+#blanks7 {
+  display: inline-block;
+  width: 30px;
+}
+
+#blanks8 {
+  display: inline-block;
+  width: 30px;
+}
+
+#blanks9 {
+  display: inline-block;
+  width: 30px;
+}
